@@ -1,0 +1,6 @@
+spring.jpa.hibernate.ddl-auto=none
+spring.datasource.url=jdbc:postgresql://localhost:3306/LOGIN
+spring.datasource.username=postgres
+spring.datasource.password=root
+logging.level.root=WARN
+spring.jpa.open-in-view=false

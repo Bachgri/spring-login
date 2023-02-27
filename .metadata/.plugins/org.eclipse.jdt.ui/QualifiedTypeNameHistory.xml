@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.example.SpringBootPostgres.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.User"/>
+    <fullyQualifiedTypeName name="org.apache.coyote.http11.upgrade.UpgradeServletOutputStream"/>
+    <fullyQualifiedTypeName name="com.example.SpringBootPostgres.entity.User"/>
+    <fullyQualifiedTypeName name="com.gpch.login.model.User"/>
+    <fullyQualifiedTypeName name="com.product.managment.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="com.product.managment.repository.RoleRepository"/>
+    <fullyQualifiedTypeName name="com.product.managment.model.User"/>
+    <fullyQualifiedTypeName name="com.product.managment.model.Role"/>
+</qualifiedTypeNameHistroy>

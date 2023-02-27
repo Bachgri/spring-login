@@ -1,0 +1,25 @@
+package com.example.SpringBootPostgres;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import com.example.SpringBootPostgres.entity.User;
+import com.example.SpringBootPostgres.repository.UserRepository;
+
+@SpringBootApplication
+public class SpringBootPostgresApplication {
+	/******************   main    **********************/
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootPostgresApplication.class, args);
+	}
+	/******************        *********************/
+    @Bean
+    public CommandLineRunner start( UserRepository ur){ 
+    	return args ->{
+		    ur.save(new User("uname", "email"));
+    	};
+    }
+    
+}								
